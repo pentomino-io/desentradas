@@ -1,0 +1,15 @@
+title: Desentradas
+tagline: Entradas que solo pagás si faltás
+lang: es
+
+titles_from_headings:
+  strip_title: true
+
+optional_front_matter:
+  remove_originals: true
+
+# Reemplaza la lista por defecto de Jekyll, que ya excluía estos archivos.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

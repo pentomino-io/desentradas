@@ -1,0 +1,64 @@
+---
+---
+
+:root {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  --fondo: light-dark(#fff, #151515);
+  --tinta: light-dark(#141414, #fff);
+  --acento: light-dark(#ffd400, #f5c800);
+  --sobre-acento: #141414;
+  background: var(--fondo);
+  color: var(--tinta);
+}
+body { margin: 0 auto; max-width: 40rem; padding: 0 1rem 2rem; }
+h1, h2, h3 { text-transform: uppercase; letter-spacing: 0.05em; line-height: 1.2; }
+h1 { font-size: 1.5rem; }  h2 { font-size: 1.25rem; }  h3 { font-size: 1rem; }
+
+nav { display: flex; flex-wrap: wrap; border-top: 2px solid; border-bottom: 2px solid; }
+nav a { flex-grow: 1; padding: 0.5rem 0.75rem; text-align: center; color: inherit; text-decoration: none; }
+nav a[aria-current="page"] { background: var(--acento); color: var(--sobre-acento); }
+
+table { width: 100%; border-collapse: collapse; border-top: 2px solid; border-bottom: 2px solid; }
+th, td { text-align: center; padding: 0.5rem; border-bottom: 1px solid; }
+th { border-bottom-width: 2px; }
+th + th, td + td { border-left: 1px solid; }
+caption { font-weight: bold; padding-bottom: 0.5rem; }
+
+button {
+  font: inherit; color: inherit; background: var(--fondo);
+  border: 2px solid; border-radius: 0; padding: 0.4rem 0.75rem; cursor: pointer;
+}
+button:hover { background: var(--tinta); color: var(--fondo); }
+
+details { border: 2px solid; padding: 0.5rem 1rem; margin: 1rem 0; }
+summary { font-weight: bold; cursor: pointer; }
+dt { font-weight: bold; }
+dd { margin: 0 0 0.5rem; }
+:focus-visible { outline: 3px solid; outline-offset: 2px; }
+
+li + li { margin-top: 0.5em; }
+li { padding-left: 0.25em; }
+ul { list-style-type: square; }
+
+a { color: inherit; }
+a:hover { background: var(--tinta); color: var(--fondo); }
+
+code, pre { font-family: ui-monospace, monospace; }
+pre { border: 2px solid; padding: 0.5rem 1rem; overflow-x: auto; }
+
+blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 2px solid; }
+hr { border: 0; border-top: 2px solid; }
+img, video, iframe { max-width: 100%; }
+img, video { height: auto; }
+
+// Las tablas de markdown no tienen contenedor que scrollee.
+@media (max-width: 40rem) {
+  table { display: block; overflow-x: auto; }
+}
+
+header h1 { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5em; }
+// Alinea "Desentradas" con el título resaltado del inicio.
+header h1 a { margin-left: 1em; text-decoration: none; }
+header h1 [aria-current="page"] { padding: 0.1em 1em; background: var(--acento); color: var(--sobre-acento); }
