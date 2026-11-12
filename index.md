@@ -14,4 +14,4 @@ Supongamos que un grupo se reúne semanalmente y usa desentradas. Entonces:
 
 Las desentradas buscan incentivar la participación, y al mismo tiempo mantener la gratuidad del espacio para quienes participan.
 
-También podés leer [por qué las desentradas](/about) y [usar la aplicación](desentradas-app.pentomino.io).
+También podés leer [por qué las desentradas](/about) y [usar la aplicación](https://desentradas-app.pentomino.io).
