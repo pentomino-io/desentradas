@@ -7,7 +7,7 @@ Supongamos que un grupo se reúne semanalmente y usa desentradas. Entonces:
 2. Cuando faltás a una reunión, pagás una desentrada que se reparte equitativamente entre los asistentes. 
 3. Cuando asistís a una reunión, recibís tu parte de la desentrada de quienes hayan faltado a esa reunión.
 
-**Garantías:**
+#### Pagos por adelantado:
 - Para facilitar la organización, la primera vez que asistís adelantás una desentrada que se toma como garantía. Después, asistir es gratis hasta que faltes.
 - Cuando faltás a un evento, la desentrada que habías adelantado se reparte entre los asistentes.
 - Una vez que faltaste, tenés que reponer la garantía para volver a asistir.
